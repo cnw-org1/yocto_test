@@ -2,10 +2,10 @@
 # Process this file with autoconf to produce a configure script.
 
 #AC_PREREQ(2.60)
-AC_INIT(YoctoHelloWorldApp, 1.0, gbmhunter@gmail.com)
-AC_CONFIG_SRCDIR([HelloWorld.c])
+AC_INIT(yoctohelloworldapp, 1.0, gbmhunter@gmail.com)
+AC_CONFIG_SRCDIR([helloworld.c])
 AC_CONFIG_HEADER([config.h])
-AM_INIT_AUTOMAKE(YoctoHelloWorldApp, main)
+AM_INIT_AUTOMAKE(yoctohelloworldapp, main)
 
 # Checks for programs.
 AC_PROG_CC
